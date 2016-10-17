@@ -1,0 +1,47 @@
+*{
+  background-color: #1a2325;
+  color: #abadad;
+  font-family: LFT Etica;
+  font-size: 15px;
+}
+
+header div{
+  height: 60px;
+  width: 50px;
+  background-color: #f8695a; 
+  color: #ffffff;
+}
+
+#rectangle{
+  width: 1250px;
+  height: 3px;
+  background-color: #f8695a;   
+}
+
+.quatro{
+  font-family: Quatro Slab;
+  font-size: 34px;
+}
+
+.lft{
+  font-family: LFT Etica;
+  color: #484e4f;
+}
+
+.blue{
+  color: #01bfc1;
+}
+
+.numbers{
+  font-family: Quatro Slab;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.square{
+  height: 50px;
+  width: 80px;
+  background-color: #01bfc1;
+  font-family: LFT Etica;
+  color: #ffffff;
+}
