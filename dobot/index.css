@@ -8,10 +8,10 @@ header{
   background-color: #f8695a; 
   display: inline-block;
   box-sizing: border-box;
-  height:82px;
-  width:70px
+  height:90px;
+  width:50px
   text-align: center;
-  padding: 30px;
+  padding: 15px;
   margin-left: 40px;
 }
 
@@ -19,6 +19,8 @@ header{
 .quatro{
   font-family: Quatro Slab;
   font-size: 34px;
+  margin-top: 60px;
+  width: 350px;
 }
 
 .lft{
@@ -45,53 +47,59 @@ header{
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
   display: inline-block;
   padding: 15px;
   margin-left: 20px;
+  width: 100px;
 }
 
 body{
   background-color: #1a2325;
 }
 
-#bordertop2{
+.bordertop2{
   border-top: 3px solid #f8695a;
   margin:0;
 }
 
-#image1{
+.image1{
   float:right;
-  clear:both;
   padding-left:60px;
-  margin-top: -300px;
+  clear:both;
+  margin-right:50px;
 }
 
-#image2{
+.image2{
   float:right;
-  clear:both;
   padding-left:60px;
+  clear:both;
+  margin-right:50px;
 }
 
-#image3{
+.image3{
   float:right;
-  clear:both;
   padding-left:60px;
+  clear:both;
+  margin-right:50px;
+  margin-bottom: 20px;
 }
 
 .bottomborder{
   border-bottom: 1px solid #484e4f;
   padding-top: 20px;
   margin-left: 40px;
+  padding-bottom: 500px;
 }
 
 .bottomborder2{
   border-bottom: 1px dotted #484e4f;
-  max-width: 800px;
+  max-width: 600px;
   padding-top: 20px;
 }
 
 p{
-  max-width:800px;
+  max-width:600px;
   max-height:2500px;
 }
 
@@ -101,4 +109,5 @@ footer{
 
 .section{
   margin-left: 40px;
+  clear: left;
 }
