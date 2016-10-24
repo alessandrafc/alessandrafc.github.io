@@ -7,7 +7,12 @@
 header{
   background-color: #f8695a; 
   display: inline-block;
+  box-sizing: border-box;
+  height:82px;
+  width:70px
+  text-align: center;
   padding: 30px;
+  margin-left: 40px;
 }
 
 
@@ -42,17 +47,58 @@ header{
   text-transform: uppercase;
   display: inline-block;
   padding: 15px;
+  margin-left: 20px;
 }
 
 body{
   background-color: #1a2325;
+}
+
+#bordertop2{
   border-top: 3px solid #f8695a;
-  position:relative;
+  margin:0;
+}
+
+#image1{
+  float:right;
+  clear:both;
+  padding-left:60px;
+  margin-top: -300px;
+}
+
+#image2{
+  float:right;
+  clear:both;
+  padding-left:60px;
+}
+
+#image3{
+  float:right;
+  clear:both;
+  padding-left:60px;
+}
+
+.bottomborder{
+  border-bottom: 1px solid #484e4f;
+  padding-top: 20px;
   margin-left: 40px;
 }
 
-.image{
-  display:inline-block;
-  position: absolute;
-  right: 0px;
+.bottomborder2{
+  border-bottom: 1px dotted #484e4f;
+  max-width: 800px;
+  padding-top: 20px;
+}
+
+p{
+  max-width:800px;
+  max-height:2500px;
+}
+
+footer{
+  padding-top: 20px;
+}
+
+.section{
+  margin-left: 40px;
 }
