@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+  color: #abadad;
+  font-family: LFT Etica;
+  font-size: 15px;
+}
+
+header{
+  background-color: #f8695a; 
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 15px;
+  margin-left: 40px;
+}
+
+.logo{
+  width:100%;
+}
+
+.quatro{
+  font-family: Quatro Slab;
+  font-size: 34px;
+  width: 350px;
+}
+
+.lft{
+  font-family: LFT Etica;
+  color: #484e4f;
+}
+
+.blue{
+  color: #01bfc1;
+  text-decoration: none;
+}
+
+.numbers{
+  font-family: Quatro Slab;
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.square{
+  background-color: #01bfc1;
+  font-family: LFT Etica;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  margin-left: 20px;
+  width: 100px;
+}
+
+body{
+  background-color: #1a2325;
+}
+
+.bordertop2{
+  border-top: 3px solid #f8695a;
+  margin:0;
+}
+
+
+.bottomborder{
+  border-bottom: 1px solid #484e4f;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+
+.bottomborder2{
+  border-bottom: 1px dotted #484e4f;
+  max-width: 600px;
+  padding-top: 20px;
+}
+
+p{
+  max-width:600px;
+  max-height:2500px;
+}
+
+footer{
+  padding-top: 20px;
+}
+
+.section{
+  margin-left: 40px;
+  clear: left;
+}
+
+@media (max-width: 400px) {
+
+  
+.numbers{
+    font-size: 16px;
+  }
+  
+.square{
+    padding: 7.5px;
+    margin-left: 10px;
+    width: 90px;
+  }
+
+.quatro{
+  margin-top: 20px;
+}
+
+.image1{
+  width: calc(100%);
+  margin-top: 20px;
+}
+
+.image2{
+  width: calc(100%);
+  margin-top: 20px;
+}
+
+.image3{
+  width: calc(100%);
+  margin-top: 20px;
+}
+
+.bottomborder{
+  padding-bottom: 10px;
+}
+
+header{
+  height:45px;
+  width: 45px;
+  padding: 7.5px;
+  margin-left: 20px;
+}
+
+
+@media (min-width: 400px) {
+  
+  .numbers{
+    font-size: 16px;
+  }
+
+  .quatro{
+  margin-top: 60px;
+}
+
+.bottomborder{
+  padding-bottom: 500px;
+}
+  
+  .image1{
+  float:right;
+  padding-left:60px;
+  clear:both;
+  margin-right:50px;
+}
+
+.image2{
+  float:right;
+  padding-left:60px;
+  clear:both;
+  margin-right:50px;
+}
+
+.image3{
+  float:right;
+  padding-left:60px;
+  clear:both;
+  margin-right:50px;
+  margin-bottom: 20px;
+}
+
+header{
+  height:90px;
+  width: 90px;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+
+/*@media (min-width: 990px) {
+  .quatro {
+    font-size: 36px;
+  }
+  .numbers{
+    font-size: 16px;
+  }
+  body {
+    font-size: 15px;
+  }
+}*/
