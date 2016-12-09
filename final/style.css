@@ -68,12 +68,19 @@ nav {
   font-size: 12px;
 }
 
+.bigbold{
+  font-family: "Gotham Bold";
+  font-size: 28px;
+}
+
 .about {
   font-family: "Gotham Bold";
-  font-size: 18px;
+  font-size: 24px;
   min-height: 100vh;
   display: flex;
   align-items: center;
+  max-width: 420px;
+  margin-left: 450px; 
 }
 
 .contact {
@@ -84,10 +91,10 @@ nav {
 
 .information {
   position: absolute;
-  bottom: 0px;
+  bottom: 20px;
   transform: rotate(-90deg);
   transform-origin: left;
-  left: 80px;
+  left: 180px;
   width: 300px;
 }
 
@@ -95,6 +102,31 @@ nav {
  position: relative;
  left: calc(50% - 164px);
 }
+
+.visuallyhidden {
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+
+.workindex {
+  font-family: "Gotham Book";
+  font-size: 28px;
+}
+
+.workindex2 {
+  font-family: "Gotham Book";
+  font-size: 12px;
+}
+
+.hi {
+  font-family: "Gotham Bold";
+  font-size: 100px;
+  margin-left: 220px;
+}
+
 
 
 
