@@ -61,6 +61,7 @@ nav {
 .work {
   overflow: auto;
   position: relative;
+  max-height: 100vh;
 }
 
 .bold{
