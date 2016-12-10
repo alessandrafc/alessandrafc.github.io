@@ -129,8 +129,33 @@ nav {
   font-family: "Gotham Bold";
   font-size: 100px;
   margin-left: 220px;
+  position: absolute;
+  margin-top: 50px;
 }
 
+.numbers {
+  font-family: "Gotham Bold";
+  font-size: 100px;
+  margin-left: 280px;
+  position: absolute;
+}
 
+.rectangle {
+  width:350px;
+  height:13px;
+  position: absolute;
+  margin-left: 280px;
+  background: black;
+  margin-top: 90px;
+}
+
+.rectangle2 {
+  width:450px;
+  height:13px;
+  position: absolute;
+  margin-left: 225px;
+  background: black;
+  margin-top: 150px;
+}
 
 
