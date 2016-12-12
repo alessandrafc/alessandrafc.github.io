@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
   }
 
 header{
-  font-family: "Gotham Bold";
+  font-family: "Gotham HTF Bold";
   font-size: 24px;
   margin-top: 20px;
   margin-right: 20px;
@@ -56,7 +56,7 @@ nav {
 }
 
 .works {
- font-family: "Gotham Book";
+ font-family: "Gotham HTF Book";
  font-size: 12px;
  position: relative;
 }
@@ -68,17 +68,17 @@ nav {
 }
 
 .bold{
-  font-family: "Gotham Bold";
+  font-family: "Gotham HTF Bold";
   font-size: 12px;
 }
 
 .bigbold{
-  font-family: "Gotham Bold";
+  font-family: "Gotham HTF Bold";
   font-size: 28px;
 }
 
 .about {
-  font-family: "Gotham Bold";
+  font-family: "Gotham HTF Bold";
   font-size: 24px;
   min-height: 100vh;
   display: flex;
@@ -88,7 +88,7 @@ nav {
 }
 
 .contact {
- font-family: "Gotham Book";
+ font-family: "Gotham HTF Book";
  font-size: 12px;
  position: relative;
 }
@@ -116,17 +116,17 @@ nav {
 }
 
 .workindex {
-  font-family: "Gotham Book";
+  font-family: "Gotham HTF Book";
   font-size: 28px;
 }
 
 .workindex2 {
-  font-family: "Gotham Book";
+  font-family: "Gotham HTF Book";
   font-size: 12px;
 }
 
 .hi {
-  font-family: "Gotham Bold";
+  font-family: "Gotham HTF Bold";
   font-size: 100px;
   margin-left: 220px;
   position: absolute;
@@ -134,7 +134,7 @@ nav {
 }
 
 .numbers {
-  font-family: "Gotham Bold";
+  font-family: "Gotham HTF Bold";
   font-size: 100px;
   margin-left: 280px;
   position: absolute;
